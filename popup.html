@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grabby</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+      h1 {
+        color: #333;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        background: #fff;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      #clearEmails, #history, #copyAll, #backToMain {
+        background-color: #f44336;
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+        font-size: 1rem;
+      }
+      #historySection {
+        display: none;
+      }
+      .branding {
+        margin-top: 20px;
+        font-size: 0.8rem;
+        text-align: center;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main Section -->
+    <div id="mainSection">
+      <h1>Emails Found</h1>
+      <ul id="emailList"></ul>
+      <button id="copyAll">Copy All Emails</button>
+      <button id="history">View Email History</button>
+      <button id="clearEmails">Clear All Emails</button>
+    </div>
+
+    <!-- History Section -->
+    <div id="historySection">
+      <h1>Email History</h1>
+      <ul id="historyList"></ul>
+      <button id="copyHistoryAll">Copy All History Emails</button>
+      <button id="backToMain">Back to Main</button>
+    </div>
+
+    <div class="branding">
+      <p>Created by Megh Shah - <em>Grabby</em></p>
+      <p>Disclaimer: This tool is open-source and free to use.</p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
