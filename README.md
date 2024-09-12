@@ -27,4 +27,4 @@ License:
 Grabby is open-source and free to use. The source code is available for modification and redistribution under the MIT License.
 
 Disclaimer:
-This tool is developed by Megh Shah and is intended for personal and educational use. It is open-source and free to use, with no guarantees or warranties provided.
+This tool is developed by Hriday (supphriday) and is intended for personal and educational use. It is open-source and free to use, with no guarantees or warranties provided.
