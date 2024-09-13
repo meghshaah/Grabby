@@ -1,30 +1,40 @@
-Grabby is a Chrome extension designed to efficiently extract and manage email addresses from any website. This tool is ideal for users who need to quickly collect and organize email addresses for personal use, outreach, or research.
+ ![icon128](https://github.com/user-attachments/assets/b36dd87a-af59-48ef-bc51-1db6efef648d)
 
-Features:
-Email Extraction: Automatically detects and extracts email addresses from the content of the currently viewed website.
-Copy Individual Emails: Easily copy any email address to the clipboard with a single click.
-Copy All Emails: Copy all displayed emails at once with the click of a button.
-History Tracking: View and manage emails extracted from previously visited websites.
-Copy All History Emails: Copy all emails from the history with one click.
-Branding & Information: Includes branding with the logo and creator's name. Also features a disclaimer about the tool being open-source.
+Grabby: A Privacy-First Email Extractor
+                                        
+Protect Your Data, Extract with Confidence
+Grabby is a Chrome extension designed to efficiently extract and manage email addresses from any website, without compromising your privacy. Unlike many other email extraction tools, Grabby operates entirely offline, ensuring that your data remains secure on your device.
 
-How It Works:
-Install: Load the extension into Chrome via the Extensions page (chrome://extensions/) in Developer Mode.
-Extract Emails: Click the Grabby icon to extract emails from the current webpage.
-View History: Use the View Email History button to see a list of emails from previously visited sites.
-Manage Emails: Use the Clear All Emails button to clear the current list, and navigate back to the main view or copy all emails from either the main list or history.
 
-Installation:
-Download or clone this repository.
-Go to chrome://extensions/ in Chrome.
-Enable Developer Mode.
-Click Load Unpacked and select the folder containing the Grabby extension.
+Key Features:
 
-Contributing:
-Grabby is open-source and contributions are welcome! Please feel free to submit issues, suggest features, or contribute code via pull requests.
+•	Local Data Storage: All extracted emails are stored locally on your device, preventing sensitive information from being transmitted over the internet.
+
+•	Open-Source Transparency: Grabby's code is open-source, allowing you to inspect and verify its functionality and privacy practices.
+
+•	Efficient Extraction: Automatically detects and extracts email addresses from any webpage, saving you time and effort.
+
+•	Easy Management: Copy individual or all extracted emails to the clipboard, view and manage your history, and clear your data whenever you wish.
+
+Why Choose Grabby?
+
+•	Privacy-Centric: We prioritize your privacy by avoiding any connection to external servers.
+•	Reliable and Efficient: Grabby delivers consistent performance and accuracy.
+•	Community-Driven: Benefit from the contributions of a dedicated open-source community.
+
+
+Get Started:
+
+1.	Download: Clone or download the Grabby repository from GitHub.
+2.	Install: Load the extension into Chrome using Developer Mode.
+3.	Extract: Click the Grabby icon to extract emails from the current webpage.
+
+
+Contribute:
+We welcome contributions from developers who share our commitment to privacy and open-source software. Feel free to submit issues, suggest features, or contribute code via pull requests.
 
 License:
-Grabby is open-source and free to use. The source code is available for modification and redistribution under the MIT License.
+Grabby is licensed under the MIT License, allowing for free use, modification, and distribution.
 
 Disclaimer:
-This tool is developed by Megh Shah and is intended for personal and educational use. It is open-source and free to use, with no guarantees or warranties provided.
+Grabby is intended for personal and educational use. While we strive to provide a secure and reliable tool, we cannot guarantee its suitability for all purposes. Please use Grabby responsibly and at your own discretion.
